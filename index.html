@@ -31,6 +31,15 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+
+            text-align: center;
+            /* 오 text-align 안쓰니까 <h1>텍스트 2줄짜리일때 가운데 정렬 안되던데 사용하니까 정렬이 되는군.. 
+            그럼 위에 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            얘네랑 text-align이랑 다른 점이 뭐지? */
         }
 
         .myhead>button {
@@ -81,7 +90,8 @@
 
 <body>
     <div class="myhead">
-        <h1>✨봐도봐도 질리지 않는 인생영화✨</h1>
+        <h1><p>봐도봐도 질리지 않는</p> 
+            <p>    ✨인생영화✨</p></h1>
         <button>영화 기록하기</button>
     </div>
     <div class="mypen">
